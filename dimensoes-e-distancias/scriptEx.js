@@ -20,7 +20,6 @@ function SomaDasImgs() {
 // com o dedo. (48px/48px de acordo com o google)
 function verificaLinks() {
   const links = document.querySelectorAll('a');
-  console.log(links);
   links.forEach((item) => {
     if(item.offsetHeight >= 48 && item.offsetWidth >= 48) {
       console.log("dentro do recomendado");

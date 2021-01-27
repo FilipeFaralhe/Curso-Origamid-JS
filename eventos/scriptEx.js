@@ -21,7 +21,6 @@ function callbackLinks(e){
 
 
 linksInternos.forEach((item) => {
-  console.log(item);
   item.addEventListener('click', callbackLinks);
 });
 

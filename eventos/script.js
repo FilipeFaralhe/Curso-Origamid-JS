@@ -99,7 +99,7 @@ img.addEventListener('click', callbackThis);
 
 // Diferentes Eventos
 /*
-  xistem diversos eventos como click, scroll, resize, keydown, keyup, mouseenter e mais. 
+  Existem diversos eventos como click, scroll, resize, keydown, keyup, mouseenter e mais. 
   Eventos podem ser adicionados a diferentes elementos, como o window e document também.
 */
 
