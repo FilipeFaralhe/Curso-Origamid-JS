@@ -69,9 +69,33 @@ animais.appendChild(tituloContato);//move para o último elemento filho da class
 faq.insertBefore(tituloPrincipal, tituloFaq); //Elemento para onde irá mover.(o que irá mover, antes de que elemento irá mover)
 
 faq.removeChild(tituloFaq); //remove o titulo do elemento com a class faq
-contato.replaceChild(lista, mapa);//substitui o mapa pela lista  
+contato.replaceChild(lista, mapa);//substitui o mapa pela lista
 
+//NOVOS ELEMENTOS
+/* Podemos criar novos elementos com o método createElement() */
 
+const novoH1 = document.createElement('h1');
+novoH1.innerText = 'Novo Título';
+novoH1.classList.add('titulo');
+
+animais.appendChild(novoH1);
+
+// CLONAR ELEMENTOS
+/* 
+  Todo elemento selecionado é único. Para criarmos um novo elemento baseado no anterior, 
+  é necessário utilizar o método cloneNode() 
+*/
+
+const titulo = document.querySelector('h1');
+const titulo2 = document.querySelector('h1');
+const novoTitulo = titulo;
+// titulo, titulo2 e novoTitulo são iguais
+
+const cloneTitulo = titulo.cloneNode(true);
+const contato1 = document.querySelector('.contato');
+contato1.appendChild(cloneTitulo);
+
+/* true sinaliza para incluir os filhos */
 
 
 

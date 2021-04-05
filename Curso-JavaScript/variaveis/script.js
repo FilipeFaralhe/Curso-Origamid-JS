@@ -33,7 +33,7 @@ var nome2 = "Filipe2";
 /*
 É igual a isso
 var nome2;
-console.log(nome2);
+console.log(nome2);// undefined
 nome2 = "Filipe2";
 */
 
