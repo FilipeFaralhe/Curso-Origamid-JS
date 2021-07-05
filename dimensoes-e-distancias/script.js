@@ -67,9 +67,9 @@ if (window.innerWidth < 600) {
   Utilize um media-querie como no css para verificar a largura do browser
 */
 
-const small = window.matchMedia('(max-width: 600px)')
+const small = window.matchMedia('(max-width: 600px)');
 
-if(small.matches) {
+if(small.matches) { //matches retorna um boolean
   console.log('Tela menor que 600px');
 } else {
   console.log('Tela maior que 600px');

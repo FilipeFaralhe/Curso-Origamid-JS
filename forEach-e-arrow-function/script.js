@@ -4,7 +4,7 @@
   A melhor forma para interagirmos com os mesmos é utilizando o método forEach, 
   pois ele anda em todos os elementos.
 */
-const imgs = document.querySelectorAll('img');
+const imgs = document.querySelectorAll('img'); //
 console.log(imgs);
 
 imgs.forEach(function(item, index, array){

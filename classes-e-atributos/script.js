@@ -43,7 +43,7 @@ console.log(animais.attributes[1]); // retornando o ID do elemento
 const img = document.querySelector('.animais-lista img');
 console.log(img);
 
-console.log(img.getAttribute('src')); //retorna o valor src
+console.log(img.getAttribute('src')); //retorna uma string com o valor src
 img.setAttribute('alt', 'texto alternativo'); // cria ou altera o valor do atributo desejado 
 console.log(img.hasAttribute('id')); // retorna true se o atributo id existir e false caso ele não exista
 img.removeAttribute('alt'); // remove o atributo alt
@@ -52,7 +52,7 @@ function verificaAlt() {
   let qtdImg = 0;
   let guardaQuantidade = 0;
   const img = document.querySelectorAll('img'); 
-  img .forEach((item, index) => {
+  img.forEach((item, index) => {
     
     if(item.hasAttribute('alt') && item.getAttribute('alt') !== ""){
       
