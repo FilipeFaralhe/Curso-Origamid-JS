@@ -187,6 +187,6 @@ const dados1 = new Promise((resolve, reject) => {
   }, 1500);
 });
 
-const tudoCarregado = Promise.all([login1, dados1]);
+const tudoCarregado1 = Promise.race([login1, dados1]);
 
-tudoCarregado.then(resposta => console.log(resposta) /* login efetuado */ );
+tudoCarregado1.then(resposta => console.log(resposta) /* login efetuado */ );
