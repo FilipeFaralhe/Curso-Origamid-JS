@@ -189,4 +189,4 @@ const dados1 = new Promise((resolve, reject) => {
 
 const tudoCarregado1 = Promise.race([login1, dados1]);
 
-tudoCarregado1.then(resposta => console.log(resposta) /* login efetuado */ );
+tudoCarregado1.then(resposta => console.log(resposta)/* login efetuado */ )

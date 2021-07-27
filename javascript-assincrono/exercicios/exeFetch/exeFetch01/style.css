@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #787878;
+}
+
+.ContainerForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
+
+input {
+  height: 2.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+  padding-left: 0.2rem;
+}
+
+#submit {
+  display: block;
+  width: 10rem;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.ContainerContents {
+  margin: 0 auto;
+  width: 30rem;
+  height: 30rem;
+  background: gainsboro;
+  padding: 2rem;
+}
+
