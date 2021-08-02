@@ -1,0 +1,27 @@
+# API
+
+## Application 
+-> Um servidor, aplicativo, objeto JavaScript ou qualquer outra coisa que você interaja através de comandos. Ao digitar uma URL, estamos utilizando a API do browser para se comunicar com a API do servidor.
+
+## Programming
+-> Programação, isso significa que um comando irá encadear uma cadeia de eventos pré-definidos. O resultado esperado é geralmente o mesmo.
+
+## Interface
+-> A interface são os comandos criados para permitir a interação com a aplicação. Ex: 'VIOLAO'.toLowerCase() é um método que faz parte da interface do objeto String. A interação com a interface retorna um efeito / resposta.
+
+# EXEMPLOS DE API's
+
+## GitHub
+-> https://api.github.com/users/origamid
+-> https://api.github.com/users/origamid/followers
+
+## Array / Element
+-> [].map();
+-> [].filter();
+-> Element.classList;
+-> Element.attributes;
+
+## Tempo
+-> https://www.metaweather.com/api/location/455825/
+-> https://github.com/toddmotto/public-apis
+
